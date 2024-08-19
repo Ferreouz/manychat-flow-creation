@@ -1,0 +1,41 @@
+{
+  "name": "manychat-flow-creation",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsup && node dist/index.js",
+    "test": "jest",
+    "lint": "tsc",
+    "build": "tsup"
+  },
+  "keywords": [
+    "Manychat Flow Creation"
+  ],
+  "author": "ferreouz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferreouz/manychat-flow-creation.git"
+  },
+  "license": "ISC",
+  "description": "A Google Drive operations simplifier",
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/plugin-proposal-decorators": "^7.24.7",
+    "@babel/preset-env": "^7.25.0",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.12",
+    "babel-jest": "^29.7.0",
+    "globals": "^15.8.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/puppeteer": "^5.4.7",
+    "puppeteer": "^23.1.0"
+  }
+}
